@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5AD52FE1959507D00B37E2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5AD52FD1959507D00B37E2F /* Foundation.framework */; };
+		C5AD53001959507D00B37E2F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5AD52FF1959507D00B37E2F /* CoreGraphics.framework */; };
+		C5AD53021959507D00B37E2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5AD53011959507D00B37E2F /* UIKit.framework */; };
+		C5AD53081959507D00B37E2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5AD53061959507D00B37E2F /* InfoPlist.strings */; };
+		C5AD530A1959507D00B37E2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AD53091959507D00B37E2F /* main.m */; };
+		C5AD530E1959507D00B37E2F /* SPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AD530D1959507D00B37E2F /* SPAppDelegate.m */; };
+		C5AD53101959507D00B37E2F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5AD530F1959507D00B37E2F /* Images.xcassets */; };
+		C5AD53171959507D00B37E2F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5AD53161959507D00B37E2F /* XCTest.framework */; };
+		C5AD53181959507D00B37E2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5AD52FD1959507D00B37E2F /* Foundation.framework */; };
+		C5AD53191959507D00B37E2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5AD53011959507D00B37E2F /* UIKit.framework */; };
+		C5AD53211959507D00B37E2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5AD531F1959507D00B37E2F /* InfoPlist.strings */; };
+		C5AD53231959507D00B37E2F /* SputnikTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AD53221959507D00B37E2F /* SputnikTests.m */; };
+		C5AD532E1959510F00B37E2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AD53091959507D00B37E2F /* main.m */; };
+		C5AD532F1959510F00B37E2F /* SPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AD530D1959507D00B37E2F /* SPAppDelegate.m */; };
+		C5AD53311959510F00B37E2F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5AD52FF1959507D00B37E2F /* CoreGraphics.framework */; };
+		C5AD53321959510F00B37E2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5AD53011959507D00B37E2F /* UIKit.framework */; };
+		C5AD53331959510F00B37E2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5AD52FD1959507D00B37E2F /* Foundation.framework */; };
+		C5AD53351959510F00B37E2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5AD53061959507D00B37E2F /* InfoPlist.strings */; };
+		C5AD53361959510F00B37E2F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5AD530F1959507D00B37E2F /* Images.xcassets */; };
+		C5AD533D1959514400B37E2F /* Storyboard_Phone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5AD533C1959514400B37E2F /* Storyboard_Phone.storyboard */; };
+		C5AD53401959519000B37E2F /* SPRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AD533F1959519000B37E2F /* SPRootViewController.m */; };
+		C5AD53411959519000B37E2F /* SPRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AD533F1959519000B37E2F /* SPRootViewController.m */; };
+		C5AD53421959519000B37E2F /* SPRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AD533F1959519000B37E2F /* SPRootViewController.m */; };
+		C5AD53431959525600B37E2F /* Storyboard_Phone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5AD533C1959514400B37E2F /* Storyboard_Phone.storyboard */; };
+		C5AD53491959527A00B37E2F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5AD53161959507D00B37E2F /* XCTest.framework */; };
+		C5AD534A1959527A00B37E2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5AD52FD1959507D00B37E2F /* Foundation.framework */; };
+		C5AD534B1959527A00B37E2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5AD53011959507D00B37E2F /* UIKit.framework */; };
+		C5AD53511959527A00B37E2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5AD534F1959527A00B37E2F /* InfoPlist.strings */; };
+		C5AD53531959527A00B37E2F /* Sputnik_Beta_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AD53521959527A00B37E2F /* Sputnik_Beta_Tests.m */; };
+		C5AD535C195952A600B37E2F /* SPTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AD535B195952A600B37E2F /* SPTestCase.m */; };
+		C5AD535D195952A600B37E2F /* SPTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AD535B195952A600B37E2F /* SPTestCase.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5AD531A1959507D00B37E2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5AD52F21959507D00B37E2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5AD52F91959507D00B37E2F;
+			remoteInfo = Sputnik;
+		};
+		C5AD53551959527A00B37E2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5AD52F21959507D00B37E2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5AD532C1959510F00B37E2F;
+			remoteInfo = "Sputnik Beta";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5AD52FA1959507D00B37E2F /* Sputnik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sputnik.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5AD52FD1959507D00B37E2F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C5AD52FF1959507D00B37E2F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C5AD53011959507D00B37E2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C5AD53051959507D00B37E2F /* Sputnik-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sputnik-Info.plist"; sourceTree = "<group>"; };
+		C5AD53071959507D00B37E2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C5AD53091959507D00B37E2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5AD530B1959507D00B37E2F /* Sputnik-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sputnik-Prefix.pch"; sourceTree = "<group>"; };
+		C5AD530C1959507D00B37E2F /* SPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPAppDelegate.h; sourceTree = "<group>"; };
+		C5AD530D1959507D00B37E2F /* SPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPAppDelegate.m; sourceTree = "<group>"; };
+		C5AD530F1959507D00B37E2F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C5AD53151959507D00B37E2F /* SputnikTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SputnikTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5AD53161959507D00B37E2F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C5AD531E1959507D00B37E2F /* SputnikTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SputnikTests-Info.plist"; sourceTree = "<group>"; };
+		C5AD53201959507D00B37E2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C5AD53221959507D00B37E2F /* SputnikTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SputnikTests.m; sourceTree = "<group>"; };
+		C5AD533A1959510F00B37E2F /* Sputnik copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sputnik copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5AD533B1959510F00B37E2F /* Sputnik copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Sputnik copy-Info.plist"; path = "/Users/maximpervushin/Desktop/sputnik-mock/Sputnik/Sputnik copy-Info.plist"; sourceTree = "<absolute>"; };
+		C5AD533C1959514400B37E2F /* Storyboard_Phone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard_Phone.storyboard; sourceTree = "<group>"; };
+		C5AD533E1959519000B37E2F /* SPRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPRootViewController.h; sourceTree = "<group>"; };
+		C5AD533F1959519000B37E2F /* SPRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPRootViewController.m; sourceTree = "<group>"; };
+		C5AD53481959527A00B37E2F /* Sputnik Beta Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sputnik Beta Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5AD534E1959527A00B37E2F /* Sputnik Beta Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sputnik Beta Tests-Info.plist"; sourceTree = "<group>"; };
+		C5AD53501959527A00B37E2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C5AD53521959527A00B37E2F /* Sputnik_Beta_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sputnik_Beta_Tests.m; sourceTree = "<group>"; };
+		C5AD53541959527A00B37E2F /* Sputnik Beta Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sputnik Beta Tests-Prefix.pch"; sourceTree = "<group>"; };
+		C5AD535B195952A600B37E2F /* SPTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTestCase.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5AD52F71959507D00B37E2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5AD53001959507D00B37E2F /* CoreGraphics.framework in Frameworks */,
+				C5AD53021959507D00B37E2F /* UIKit.framework in Frameworks */,
+				C5AD52FE1959507D00B37E2F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5AD53121959507D00B37E2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5AD53171959507D00B37E2F /* XCTest.framework in Frameworks */,
+				C5AD53191959507D00B37E2F /* UIKit.framework in Frameworks */,
+				C5AD53181959507D00B37E2F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5AD53301959510F00B37E2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5AD53311959510F00B37E2F /* CoreGraphics.framework in Frameworks */,
+				C5AD53321959510F00B37E2F /* UIKit.framework in Frameworks */,
+				C5AD53331959510F00B37E2F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5AD53451959527A00B37E2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5AD53491959527A00B37E2F /* XCTest.framework in Frameworks */,
+				C5AD534B1959527A00B37E2F /* UIKit.framework in Frameworks */,
+				C5AD534A1959527A00B37E2F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5AD52F11959507D00B37E2F = {
+			isa = PBXGroup;
+			children = (
+				C5AD535A1959528400B37E2F /* Tests */,
+				C5AD53031959507D00B37E2F /* Sputnik */,
+				C5AD531C1959507D00B37E2F /* SputnikTests */,
+				C5AD534C1959527A00B37E2F /* Sputnik Beta Tests */,
+				C5AD52FC1959507D00B37E2F /* Frameworks */,
+				C5AD52FB1959507D00B37E2F /* Products */,
+				C5AD533B1959510F00B37E2F /* Sputnik copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		C5AD52FB1959507D00B37E2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5AD52FA1959507D00B37E2F /* Sputnik.app */,
+				C5AD53151959507D00B37E2F /* SputnikTests.xctest */,
+				C5AD533A1959510F00B37E2F /* Sputnik copy.app */,
+				C5AD53481959527A00B37E2F /* Sputnik Beta Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5AD52FC1959507D00B37E2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5AD52FD1959507D00B37E2F /* Foundation.framework */,
+				C5AD52FF1959507D00B37E2F /* CoreGraphics.framework */,
+				C5AD53011959507D00B37E2F /* UIKit.framework */,
+				C5AD53161959507D00B37E2F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5AD53031959507D00B37E2F /* Sputnik */ = {
+			isa = PBXGroup;
+			children = (
+				C5AD530C1959507D00B37E2F /* SPAppDelegate.h */,
+				C5AD530D1959507D00B37E2F /* SPAppDelegate.m */,
+				C5AD530F1959507D00B37E2F /* Images.xcassets */,
+				C5AD53041959507D00B37E2F /* Supporting Files */,
+				C5AD533C1959514400B37E2F /* Storyboard_Phone.storyboard */,
+				C5AD533E1959519000B37E2F /* SPRootViewController.h */,
+				C5AD533F1959519000B37E2F /* SPRootViewController.m */,
+			);
+			path = Sputnik;
+			sourceTree = "<group>";
+		};
+		C5AD53041959507D00B37E2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5AD53051959507D00B37E2F /* Sputnik-Info.plist */,
+				C5AD53061959507D00B37E2F /* InfoPlist.strings */,
+				C5AD53091959507D00B37E2F /* main.m */,
+				C5AD530B1959507D00B37E2F /* Sputnik-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5AD531C1959507D00B37E2F /* SputnikTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5AD53221959507D00B37E2F /* SputnikTests.m */,
+				C5AD531D1959507D00B37E2F /* Supporting Files */,
+			);
+			path = SputnikTests;
+			sourceTree = "<group>";
+		};
+		C5AD531D1959507D00B37E2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5AD531E1959507D00B37E2F /* SputnikTests-Info.plist */,
+				C5AD531F1959507D00B37E2F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5AD534C1959527A00B37E2F /* Sputnik Beta Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C5AD53521959527A00B37E2F /* Sputnik_Beta_Tests.m */,
+				C5AD534D1959527A00B37E2F /* Supporting Files */,
+			);
+			path = "Sputnik Beta Tests";
+			sourceTree = "<group>";
+		};
+		C5AD534D1959527A00B37E2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5AD534E1959527A00B37E2F /* Sputnik Beta Tests-Info.plist */,
+				C5AD534F1959527A00B37E2F /* InfoPlist.strings */,
+				C5AD53541959527A00B37E2F /* Sputnik Beta Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5AD535A1959528400B37E2F /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C5AD535B195952A600B37E2F /* SPTestCase.m */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5AD52F91959507D00B37E2F /* Sputnik */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5AD53261959507D00B37E2F /* Build configuration list for PBXNativeTarget "Sputnik" */;
+			buildPhases = (
+				C5AD52F61959507D00B37E2F /* Sources */,
+				C5AD52F71959507D00B37E2F /* Frameworks */,
+				C5AD52F81959507D00B37E2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sputnik;
+			productName = Sputnik;
+			productReference = C5AD52FA1959507D00B37E2F /* Sputnik.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5AD53141959507D00B37E2F /* SputnikTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5AD53291959507D00B37E2F /* Build configuration list for PBXNativeTarget "SputnikTests" */;
+			buildPhases = (
+				C5AD53111959507D00B37E2F /* Sources */,
+				C5AD53121959507D00B37E2F /* Frameworks */,
+				C5AD53131959507D00B37E2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5AD531B1959507D00B37E2F /* PBXTargetDependency */,
+			);
+			name = SputnikTests;
+			productName = SputnikTests;
+			productReference = C5AD53151959507D00B37E2F /* SputnikTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5AD532C1959510F00B37E2F /* Sputnik Beta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5AD53371959510F00B37E2F /* Build configuration list for PBXNativeTarget "Sputnik Beta" */;
+			buildPhases = (
+				C5AD532D1959510F00B37E2F /* Sources */,
+				C5AD53301959510F00B37E2F /* Frameworks */,
+				C5AD53341959510F00B37E2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sputnik Beta";
+			productName = Sputnik;
+			productReference = C5AD533A1959510F00B37E2F /* Sputnik copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5AD53471959527A00B37E2F /* Sputnik Beta Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5AD53571959527A00B37E2F /* Build configuration list for PBXNativeTarget "Sputnik Beta Tests" */;
+			buildPhases = (
+				C5AD53441959527A00B37E2F /* Sources */,
+				C5AD53451959527A00B37E2F /* Frameworks */,
+				C5AD53461959527A00B37E2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5AD53561959527A00B37E2F /* PBXTargetDependency */,
+			);
+			name = "Sputnik Beta Tests";
+			productName = "Sputnik Beta Tests";
+			productReference = C5AD53481959527A00B37E2F /* Sputnik Beta Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5AD52F21959507D00B37E2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Nine Entertainment";
+				TargetAttributes = {
+					C5AD52F91959507D00B37E2F = {
+						DevelopmentTeam = RX8GKWF4C9;
+					};
+					C5AD53141959507D00B37E2F = {
+						TestTargetID = C5AD52F91959507D00B37E2F;
+					};
+					C5AD532C1959510F00B37E2F = {
+						DevelopmentTeam = RX8GKWF4C9;
+					};
+					C5AD53471959527A00B37E2F = {
+						TestTargetID = C5AD532C1959510F00B37E2F;
+					};
+				};
+			};
+			buildConfigurationList = C5AD52F51959507D00B37E2F /* Build configuration list for PBXProject "Sputnik" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C5AD52F11959507D00B37E2F;
+			productRefGroup = C5AD52FB1959507D00B37E2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5AD52F91959507D00B37E2F /* Sputnik */,
+				C5AD532C1959510F00B37E2F /* Sputnik Beta */,
+				C5AD53141959507D00B37E2F /* SputnikTests */,
+				C5AD53471959527A00B37E2F /* Sputnik Beta Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5AD52F81959507D00B37E2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5AD53081959507D00B37E2F /* InfoPlist.strings in Resources */,
+				C5AD533D1959514400B37E2F /* Storyboard_Phone.storyboard in Resources */,
+				C5AD53101959507D00B37E2F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5AD53131959507D00B37E2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5AD53211959507D00B37E2F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5AD53341959510F00B37E2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5AD53351959510F00B37E2F /* InfoPlist.strings in Resources */,
+				C5AD53431959525600B37E2F /* Storyboard_Phone.storyboard in Resources */,
+				C5AD53361959510F00B37E2F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5AD53461959527A00B37E2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5AD53511959527A00B37E2F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5AD52F61959507D00B37E2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5AD53401959519000B37E2F /* SPRootViewController.m in Sources */,
+				C5AD530A1959507D00B37E2F /* main.m in Sources */,
+				C5AD530E1959507D00B37E2F /* SPAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5AD53111959507D00B37E2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5AD535C195952A600B37E2F /* SPTestCase.m in Sources */,
+				C5AD53231959507D00B37E2F /* SputnikTests.m in Sources */,
+				C5AD53421959519000B37E2F /* SPRootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5AD532D1959510F00B37E2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5AD53411959519000B37E2F /* SPRootViewController.m in Sources */,
+				C5AD532E1959510F00B37E2F /* main.m in Sources */,
+				C5AD532F1959510F00B37E2F /* SPAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5AD53441959527A00B37E2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5AD535D195952A600B37E2F /* SPTestCase.m in Sources */,
+				C5AD53531959527A00B37E2F /* Sputnik_Beta_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5AD531B1959507D00B37E2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5AD52F91959507D00B37E2F /* Sputnik */;
+			targetProxy = C5AD531A1959507D00B37E2F /* PBXContainerItemProxy */;
+		};
+		C5AD53561959527A00B37E2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5AD532C1959510F00B37E2F /* Sputnik Beta */;
+			targetProxy = C5AD53551959527A00B37E2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5AD53061959507D00B37E2F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5AD53071959507D00B37E2F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C5AD531F1959507D00B37E2F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5AD53201959507D00B37E2F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C5AD534F1959527A00B37E2F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5AD53501959527A00B37E2F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5AD53241959507D00B37E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5AD53251959507D00B37E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5AD53271959507D00B37E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sputnik/Sputnik-Prefix.pch";
+				INFOPLIST_FILE = "Sputnik/Sputnik-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C5AD53281959507D00B37E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sputnik/Sputnik-Prefix.pch";
+				INFOPLIST_FILE = "Sputnik/Sputnik-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C5AD532A1959507D00B37E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sputnik.app/Sputnik";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sputnik/Sputnik-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SputnikTests/SputnikTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C5AD532B1959507D00B37E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sputnik.app/Sputnik";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sputnik/Sputnik-Prefix.pch";
+				INFOPLIST_FILE = "SputnikTests/SputnikTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		C5AD53381959510F00B37E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sputnik/Sputnik-Prefix.pch";
+				INFOPLIST_FILE = "Sputnik copy-Info.plist";
+				PRODUCT_NAME = "Sputnik copy";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C5AD53391959510F00B37E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sputnik/Sputnik-Prefix.pch";
+				INFOPLIST_FILE = "Sputnik copy-Info.plist";
+				PRODUCT_NAME = "Sputnik copy";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C5AD53581959527A00B37E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sputnik copy.app/Sputnik copy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sputnik Beta Tests/Sputnik Beta Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sputnik Beta Tests/Sputnik Beta Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C5AD53591959527A00B37E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sputnik copy.app/Sputnik copy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sputnik Beta Tests/Sputnik Beta Tests-Prefix.pch";
+				INFOPLIST_FILE = "Sputnik Beta Tests/Sputnik Beta Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5AD52F51959507D00B37E2F /* Build configuration list for PBXProject "Sputnik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5AD53241959507D00B37E2F /* Debug */,
+				C5AD53251959507D00B37E2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5AD53261959507D00B37E2F /* Build configuration list for PBXNativeTarget "Sputnik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5AD53271959507D00B37E2F /* Debug */,
+				C5AD53281959507D00B37E2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5AD53291959507D00B37E2F /* Build configuration list for PBXNativeTarget "SputnikTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5AD532A1959507D00B37E2F /* Debug */,
+				C5AD532B1959507D00B37E2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5AD53371959510F00B37E2F /* Build configuration list for PBXNativeTarget "Sputnik Beta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5AD53381959510F00B37E2F /* Debug */,
+				C5AD53391959510F00B37E2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5AD53571959527A00B37E2F /* Build configuration list for PBXNativeTarget "Sputnik Beta Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5AD53581959527A00B37E2F /* Debug */,
+				C5AD53591959527A00B37E2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5AD52F21959507D00B37E2F /* Project object */;
+}
